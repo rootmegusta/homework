@@ -1,0 +1,50 @@
+*{
+    font-family: 'Montserrat';
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+.header{
+    background: black;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    position: relative;
+    padding: 20px 10%;
+    color: white;
+    box-shadow: 0px 10px 40px 0px rgba(0,0,0,0.35);;
+    align-items: center;    
+    animation: scale-up 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both; 
+}
+
+ ul, li{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 30px;
+      
+  
+ 
+}
+ ul, li:last-child{
+    padding:  0 0 0 30px;
+}
+.logo img{
+    width: 50px;
+}
+
+
+
+
+/*
+ * ----------------------------------------
+ * animation
+ * ----------------------------------------
+ */
+ @keyframes scale-up {
+    0% {
+      transform: scaleY(0.4);
+    }
+    100% {
+      transform: scaleY(1);
+    }
+  }
+  
