@@ -3,6 +3,7 @@
     margin: 0;
     list-style: none;
     box-sizing: border-box;
+    margin: 0;
 }
 .header{
     background: black;
@@ -15,14 +16,16 @@
     align-items: center;    
     animation: scale-up 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both; 
 }
-
+.header .login-btn {
+  background-color: #C54761;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+}
  ul, li{
     display: flex;
     justify-content: flex-end;
     padding: 0px 30px;
-      
-  
- 
 }
  ul, li:last-child{
     padding:  0 0 0 30px;
